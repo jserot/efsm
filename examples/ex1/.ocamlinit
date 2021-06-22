@@ -1,0 +1,11 @@
+#directory "../../_build/default/src/lib";;
+#directory "../../_build/default/src/lib/.efsm.objs/byte";;
+#load "efsm.cma";;
+open Efsm;;
+module Builtins = Efsm__Builtins
+module Env = Efsm__Env
+module Expr = Efsm__Expr
+module Instr = Efsm__Instr
+module Sem = Efsm__Sem
+module Value = Efsm__Value
+open Efsm__.Value;;

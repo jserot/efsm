@@ -1,0 +1,10 @@
+_build/
+*.o
+*~
+*.aux
+*.dvi
+*.log
+*.toc
+*.rel
+.merlin
+bin/
